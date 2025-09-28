@@ -63,4 +63,5 @@ def grade12_term4():
     return render_template('grade12_term4.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+
+    app.run(host='0.0.0.0'. debug=True)
